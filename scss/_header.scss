@@ -1,0 +1,116 @@
+   .header__inner {
+       display: flex;
+       //    padding: 0 117px;
+       padding-top: 36px;
+       justify-content: space-between;
+       align-items: center;
+
+       .header__inner--logo {
+           display: flex;
+           //    padding-left: 25px;
+       }
+
+       .header__inner--title {
+           color: #FFF;
+           font-family: Gilroy;
+           font-size: 36px;
+           font-style: normal;
+           font-weight: 800;
+           line-height: normal;
+           letter-spacing: 0.72px;
+           margin-left: 5px;
+           padding-top: 5px;
+       }
+
+       .menu__list {
+           display: flex;
+
+           // Применение стилей к всем элементам .menu__item внутри .menu__list
+           .menu__item {
+               a {
+                   color: #FFF;
+                   font-family: RedRose;
+                   font-size: 18px;
+                   font-style: normal;
+                   font-weight: 400;
+                   line-height: normal;
+                   letter-spacing: 0.2px;
+                   margin-left: 39px;
+               }
+
+               // Убрать отступ у первого элемента .menu__item внутри .menu__list
+               &:first-child {
+                   a {
+                       margin-left: 0;
+                   }
+               }
+           }
+       }
+
+       .inner__btn {
+           width: 180px;
+           height: 50px;
+           border-radius: 50px;
+           background: #52FFE0;
+           color: #2C2D31;
+           text-align: center;
+           font-family: RedRose;
+           font-size: 16px;
+           font-style: normal;
+           font-weight: 400;
+           line-height: normal;
+           letter-spacing: 0.32px;
+       }
+
+       .burger {
+           display: none;
+           position: relative;
+           z-index: 50;
+           align-items: center;
+           justify-content: flex-end;
+           width: 27px;
+           height: 20px;
+
+           span {
+
+               height: 2px;
+               width: 100%;
+               transform: scale(1);
+               background-color: #FFFFFF;
+           }
+
+           &::before,
+           &::after {
+               content: '';
+               position: absolute;
+               height: 2px;
+               width: 100%;
+               background-color: #FFFFFF;
+               transition: all 0.3s ease 0s;
+           }
+
+           &::before {
+               top: 2px;
+           }
+
+           &::after {
+               bottom: -1px;
+           }
+
+           &.active span {
+               transform: scale(0);
+           }
+
+           &.active::before {
+               top: 41%;
+               transform: rotate(-45deg);
+               transform-origin: center;
+           }
+
+           &.active::after {
+               bottom: 48%;
+               transform: rotate(45deg);
+               transform-origin: center;
+           }
+       }
+   }
