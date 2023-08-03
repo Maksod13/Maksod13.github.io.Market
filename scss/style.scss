@@ -980,1374 +980,857 @@
         display: none;
     }
 
-    .categories {
-        .categories__main {
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 0;
+    .categories .categories__main {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0;
+    }
 
-            .categories__main--box {
-                max-width: 220px;
+    .categories .categories__main--box {
+        max-width: 220px;
+    }
 
-                .box__img {
-                    max-width: 200px;
-                }
-            }
+    .categories .categories__main--box .box__img {
+        max-width: 200px;
+    }
 
-        }
+    .TrandNFT .TrandNFT__inner {
+        flex-wrap: wrap;
+    }
+
+    .TrandNFT .TrandNFT__inner .TrandNFT__inner--box {
+        max-width: 300px;
+        height: auto;
 
 
-
-
-        .TrandNFT .TrandNFT__inner {
-            flex-wrap: wrap;
-        }
-
-        .TrandNFT .TrandNFT__inner .TrandNFT__inner--box {
+        .TrandNFT__img {
             max-width: 300px;
-            height: auto;
-
-
-            .TrandNFT__img {
-                max-width: 300px;
-            }
-
         }
 
-        .TrandNFT {
-            .TrandNFT__inner {
-                .TrandNFT__arrow--right {
-                    display: none;
-                }
+    }
 
-                .TrandNFT__arrow--left {
-                    display: none;
-                }
+    .TrandNFT {
+        .TrandNFT__inner {
+            .TrandNFT__arrow--right {
+                display: none;
+            }
+
+            .TrandNFT__arrow--left {
+                display: none;
             }
         }
+    }
 
-        .Insights__inner--box {
+    .Insights__inner--box {
+        max-width: 360px;
+
+        .inner__photo--img {
             max-width: 360px;
-
-            .inner__photo--img {
-                max-width: 360px;
-            }
-
-            .desc__info--text {
-                height: 200px;
-            }
         }
 
-        .app .app__desc {
-            height: auto;
-            gap: 0;
-            justify-content: space-between;
-        }
-
-        .footer .footer__inner .footer__inner--main .footer__inner--menu2 {
-            margin-left: 0;
-        }
-
-        .footer .footer__inner {
-            gap: 0;
-            justify-content: space-between;
-            padding: 48px 0;
-        }
-
-        .footer .footer__inner .footer__inner--profile {
-            margin-left: 0;
-        }
-
-        .footer .footer__footer--info {
-            gap: 0;
-            justify-content: space-between;
-        }
-
-        .footer .footer__inner .footer__inner--profile .profile__info .profile__mail .profile__mail--icon svg {
-            left: 370px;
+        .desc__info--text {
+            height: 200px;
         }
     }
 
-    @media screen and (max-width: 1200px) {
-        .right__column .artist__img {
-            max-width: 500px;
-        }
+    .app .app__desc {
+        height: auto;
+        gap: 0;
+        justify-content: space-between;
+    }
 
-        .right__column .right__column--ellipse {
-            left: 0px;
-            top: 400px;
-            max-width: 100px;
+    .footer .footer__inner .footer__inner--main .footer__inner--menu2 {
+        margin-left: 0;
+    }
 
+    .footer .footer__inner {
+        gap: 0;
+        justify-content: space-between;
+        padding: 48px 0;
+    }
+
+    .footer .footer__inner .footer__inner--profile {
+        margin-left: 0;
+    }
+
+    .footer .footer__footer--info {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .footer .footer__inner .footer__inner--profile .profile__info .profile__mail .profile__mail--icon svg {
+        left: 370px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .right__column .artist__img {
+        max-width: 500px;
+    }
+
+    .right__column .right__column--ellipse {
+        left: 0px;
+        top: 400px;
+        max-width: 100px;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .marketplace .marketplace__inner .left__column .left__column--subtitle {
+        font-size: 40px;
+    }
+
+    .marketplace .marketplace__inner .left__column .list__line {
+        top: 320px;
+    }
+
+    .Top__collections .collection__inner {
+        margin-right: 10px;
+    }
+
+    .TrandNFT .TrandNFT__inner {
+        justify-content: space-around;
+    }
+
+    .app .app__desc .app__text {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .marketplace .marketplace__inner .left__column .left__column--title {
+        font-size: 25px;
+    }
+
+    .marketplace .marketplace__inner .left__column .left__column--subtitle {
+        font-size: 35px;
+    }
+
+    .right__column .artist__img {
+        max-width: 350px;
+    }
+
+    .marketplace .marketplace__inner .left__column {
+        margin-top: 40px;
+    }
+
+    .right__column .right__column--ellipse {
+        top: 280px;
+        max-width: 80px;
+    }
+
+    .marketplace .marketplace__inner .left__column .list__line {
+        top: 280px;
+
+        svg {
+            width: 100px;
+            height: 100px;
         }
     }
 
-    @media screen and (max-width: 1024px) {
-        .marketplace .marketplace__inner .left__column .left__column--subtitle {
-            font-size: 40px;
-        }
-
-        .marketplace .marketplace__inner .left__column .list__line {
-            top: 320px;
-        }
-
-        .Top__collections .collection__inner {
-            margin-right: 10px;
-        }
-
-        .TrandNFT .TrandNFT__inner {
-            justify-content: space-around;
-        }
-
-        .app .app__desc .app__text {
-            margin-right: 50px;
-        }
+    .categories .categories__header {
+        text-align: center;
     }
 
-    @media screen and (max-width: 900px) {
-        .marketplace .marketplace__inner .left__column .left__column--title {
-            font-size: 25px;
-        }
+    .categories .categories__main {
+        gap: 10px;
+        justify-content: center;
+    }
 
-        .marketplace .marketplace__inner .left__column .left__column--subtitle {
-            font-size: 35px;
-        }
+    .Top__collections {
+        height: auto;
+    }
 
-        .right__column .artist__img {
-            max-width: 350px;
-        }
+    .Top__collections .collection__main {
+        flex-wrap: wrap;
+        justify-content: center;
 
-        .marketplace .marketplace__inner .left__column {
-            margin-top: 40px;
-        }
+    }
 
-        .right__column .right__column--ellipse {
-            top: 280px;
-            max-width: 80px;
-        }
+    .Top__collections .collection__inner {
+        max-width: 500px;
+    }
 
-        .marketplace .marketplace__inner .left__column .list__line {
-            top: 280px;
+
+    .TrandNFT .TrandNFT__header {
+        text-align: center;
+    }
+
+    .Insights .Insights__inner {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .Insights .Insights__header {
+        text-align: center;
+    }
+
+    .Insights .Insights__inner .Insights__box--desc .desc__btn {
+        margin-left: 100px;
+    }
+
+    .app .app__desc {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .footer .footer__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer .footer__footer--info {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .marketplace {
+        display: none;
+    }
+
+    .container {
+        padding: 0 19px;
+    }
+
+    .header__inner {
+        padding-top: 46px;
+
+        .header__inner--logo {
+            align-items: center;
+            margin-left: 5px;
 
             svg {
-                width: 100px;
-                height: 100px;
-            }
-        }
-
-        .categories .categories__header {
-            text-align: center;
-        }
-
-        .categories .categories__main {
-            gap: 10px;
-            justify-content: center;
-        }
-
-        .Top__collections {
-            height: auto;
-        }
-
-        .Top__collections .collection__main {
-            flex-wrap: wrap;
-            justify-content: center;
-
-        }
-
-        .Top__collections .collection__inner {
-            max-width: 500px;
-        }
-
-
-        .TrandNFT .TrandNFT__header {
-            text-align: center;
-        }
-
-        .Insights .Insights__inner {
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .Insights .Insights__header {
-            text-align: center;
-        }
-
-        .Insights .Insights__inner .Insights__box--desc .desc__btn {
-            margin-left: 100px;
-        }
-
-        .app .app__desc {
-            flex-wrap: wrap;
-            justify-content: center;
-
-        }
-
-        .footer .footer__inner {
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 50px;
-        }
-
-        .footer .footer__footer--info {
-            padding-left: 0;
-        }
-    }
-
-    @media screen and (max-width: 768px) {
-
-        .marketplace {
-            display: none;
-        }
-
-        .container {
-            padding: 0 19px;
-        }
-
-        .header__inner {
-            padding-top: 46px;
-
-            .header__inner--logo {
-                align-items: center;
-                margin-left: 5px;
-
-                svg {
-                    width: 32px;
-                    height: 40px;
-                }
-
-                .header__inner--title {
-                    font-size: 24px;
-                    padding: 0;
-                    margin: 5px;
-                }
+                width: 32px;
+                height: 40px;
             }
 
-            .burger {
-                display: flex;
-                margin-right: 7px;
-            }
-
-            .inner__btn {
-                display: none;
-            }
-
-            .menu__list {
-                display: none;
-                flex-direction: column;
-                position: fixed;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                z-index: 50;
-                overflow-y: auto;
-                padding: 50px 40px;
-                background-color: #1D1E22;
-                row-gap: 30px;
-
-
-                .menu__item a {
-                    margin-left: 0;
-                }
-            }
-        }
-
-        .marketplace__media {
-            display: block;
-            text-align: center;
-
-            .marketplace__media--inner {
-                margin-top: 69px;
-
-                .marketplace__media--title {
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 0;
-                }
-
-                .marketplace__media--subtitle {
-                    margin-top: 13px;
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 30px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 3px;
-                    text-transform: uppercase;
-
-
-
-                }
-
-
-
-                .marketplace__media--explore {
-                    margin-top: 33px;
-                    width: 150px;
-                    height: 60px;
-                    border-radius: 50px;
-                    background: #52FFE0;
-                    color: #2C2D31;
-                    text-align: center;
-                    font-family: RedRose;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                    letter-spacing: 0.36px;
-                }
-
-                .marketplace__photo {
-                    margin-top: 60px;
-
-                    .marketplace__artist--img {
-                        border-radius: 22%;
-                        max-width: 522px;
-                        box-shadow: 0 0 20px #2f1554, 0 0 40px #2f1554, 0 0 60px #2f1554, 0 0 80px #234243;
-
-                    }
-
-                }
-
-                .marketplace__info {
-                    margin-top: 60px;
-                    display: flex;
-                    gap: 1px;
-
-                    padding: 0 36px;
-
-
-                    justify-content: center;
-
-                    svg {
-                        margin-left: -50px;
-                        margin-top: 100px;
-                    }
-
-                    .list__item {
-                        max-width: 100px;
-                    }
-
-                    .list__item--img2 {
-                        margin-top: -20px;
-                    }
-
-                    .list__item--img3 {
-                        margin-top: -20px;
-                    }
-
-                    .info__list--number {
-                        color: #FFF;
-                        text-align: center;
-                        font-family: Monument Extended;
-                        font-size: 30px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.6px;
-                    }
-
-                    .info__list--desc {
-                        color: #818698;
-                        text-align: center;
-                        font-family: RedRose;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.32px;
-                        margin-top: 5px;
-                    }
-
-
-                }
-
-                .info__list+.info__list {
-                    margin-top: 35px;
-                }
-            }
-
-        }
-
-
-        .categories {
-            margin-top: 80px;
-
-
-
-            .categories__header {
-
-                color: #FFF;
-                text-align: center;
-                font-family: Monument Extended;
+            .header__inner--title {
                 font-size: 24px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 36px;
-                /* 150% */
-                letter-spacing: 0.5px;
-                text-transform: uppercase;
-            }
-
-            .categories__main {
-                display: none;
-            }
-
-
-            .slider {
-                display: block;
-                margin-top: 25px;
-                padding-left: 15px;
-                position: relative;
-
-                .categories__main--box+.categories__main--box {
-                    margin-right: 20px;
-                }
-
-                .categories__main--box .box__img {
-                    margin-left: 25px;
-
-                }
-
-                .slick-dots {
-                    position: absolute;
-                    display: flex;
-                    font-size: 0;
-                    top: 410px;
-                    left: 250px;
-                    justify-content: center;
-                    align-items: center;
-
-                    li {
-                        list-style: none;
-                        margin: 0 10px;
-                    }
-
-                    button {
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 50%;
-                        background-color: black;
-                        border: 1px solid #FFF;
-
-                    }
-
-                    .slick-active button {
-                        background-color: #52FFE0;
-                    }
-
-                }
-
-
+                padding: 0;
+                margin: 5px;
             }
         }
 
-        .TrandNFT .TrandNFT__inner {
+        .burger {
+            display: flex;
+            margin-right: 7px;
+        }
+
+        .inner__btn {
             display: none;
         }
 
-        .TrandNFT {
-
-
-            .TrandNFT__inner1 {
-                display: block;
-                width: 327px;
-                height: auto;
-                border-radius: 30px;
-                background: var(--black-2, #1D1E22);
-                position: relative;
-                margin-left: 200px;
-
-
-                .slick-dots {
-                    position: absolute;
-                    display: flex;
-                    font-size: 0;
-                    top: 542px;
-                    left: 80px;
-
-                    li {
-                        list-style: none;
-                        margin: 0 10px;
-                    }
-
-                    button {
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 50%;
-                        background-color: black;
-                        border: 1px solid #FFF;
-
-                    }
-
-                    .slick-active button {
-                        background-color: #52FFE0;
-                    }
-
-                }
-
-                .TrandNFT__img {
-                    max-width: 327px;
-                }
-
-                .TrandNFT__info {
-                    margin-top: 34px;
-                    margin-left: 15px;
-
-                    .TrandNFT__name {
-                        color: #FFF;
-                        font-family: RedRose;
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: 0.96px;
-
-                    }
-
-                    .TrandNFT__username {
-                        color: #FFF;
-                        font-family: RedRose;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.5px;
-                        margin-top: 6px;
-                    }
-                }
-
-                .TrandNFT__info--price {
-                    max-width: 357px;
-                    height: 80px;
-                    border-radius: 20px;
-                    background: var(--black-3, #2C2D31);
-                    margin: 33px 5px 5px 5px;
-                    display: flex;
-                    justify-content: space-between;
-
-                    .TrandNFT__price {
-                        margin-left: 20px;
-                        margin-top: 18px;
-
-                        .price__text {
-                            color: #999;
-                            font-family: RedHat Display;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal;
-                            letter-spacing: 0.64px;
-                        }
-
-                        .price__number {
-                            color: #FFF;
-                            font-family: RedHat Display;
-                            font-size: 14px;
-                            font-style: normal;
-                            line-height: normal;
-                            letter-spacing: 0.56px;
-                            margin-top: 7px;
-                        }
-                    }
-
-                    .TrandNFT__bid {
-                        margin-right: 24px;
-                        margin-top: 18px;
-
-                        .bid__text {
-                            color: #999;
-                            font-family: RedHat Display;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal;
-                            letter-spacing: 0.64px;
-                        }
-
-                        .bid__number {
-                            color: #FFF;
-                            font-family: RedHat Display;
-                            font-size: 14px;
-                            font-style: normal;
-                            margin-top: 7px;
-                            line-height: normal;
-                            letter-spacing: 0.3px;
-                        }
-                    }
-                }
-            }
-        }
-
-    }
-
-    @media screen and (max-width: 600px) {
-        .marketplace__media .marketplace__media--inner .marketplace__photo .marketplace__artist--img {
-            max-width: 350px;
-        }
-
-        .Top__collections .collections__header .collection__time {
+        .menu__list {
             display: none;
-        }
-
-        .TrandNFT .TrandNFT__inner1 {
-            margin-left: 110px;
-        }
-
-        .app .app__desc .app__buttons {
-            margin-left: 120px;
-        }
-    }
-
-    @media screen and (max-width: 470px) {
-        .marketplace__media .marketplace__media--inner .marketplace__photo .marketplace__artist--img {
-            max-width: 250px;
-        }
-
-        .Top__collections .collections__header .collection__time {
-            display: none;
-        }
-
-        .categories .slider .slick-dots {
-            left: 100px;
-        }
-
-        .categories .slider .categories__main--box .box__img {
-            margin-left: 35px;
-        }
-
-        .TrandNFT .TrandNFT__inner1 {
-            margin-left: 30px;
-        }
-
-        .footer {
-            display: none;
-        }
-
-        .footer__media {
-            display: block;
-
-            .footer__inner--profile .profile__info {
-                margin-top: 120px;
-                margin-left: 5px;
-                height: 262px;
-                max-width: 586px;
-                border-radius: 20px;
-                background: #52FFE0;
-                display: flex;
-                padding: 60px 48px;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 15px;
-
-                .profile__text {
-                    color: #1D1E22;
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 150%;
-                    margin-top: -10px;
-                    /* 30px */
-                }
-
-                .profile__mail--input {
-                    margin-left: -10px;
-                    color: #1D1E22;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    letter-spacing: -0.213px;
-                    position: relative;
-                    padding: 0;
-                    margin-top: -5px;
-
-                }
-
-                svg {
-
-                    display: none;
-                }
-            }
-
-            .office {
-                margin-top: 35px;
-                color: #FFF;
-                text-align: center;
-                font-family: Inter;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 18px;
-                /* 100% */
-            }
-
-            .street {
-                margin-top: 15px;
-                color: #E0E5F3;
-                text-align: center;
-
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .country {
-                color: #E0E5F3;
-                text-align: center;
-
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-
-            }
-
-            .contact__contact {
-                margin-top: 40px;
-                color: #FFF;
-                text-align: center;
-                font-family: Inter;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 18px;
-                /* 100% */
-            }
-
-            .contact__number {
-                color: #E0E5F3;
-                text-align: center;
-                margin-top: 15px;
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .contact__email {
-                color: #E0E5F3;
-                text-align: center;
-                margin-top: 5px;
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .terms {
-                text-align: center;
-
-                .terms__terms {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 40px;
-                }
-
-                .terms__conditions {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 30px;
-                }
-
-                .terms__privacy {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 33px;
-                }
-            }
-
-
-            .footer__media--icon {
-                margin-left: 103px;
-                margin-top: 30px;
-
-
-                a i {
-                    font-size: 24px;
-                    color: #FFF;
-                    margin-right: 28px;
-                }
-            }
-
-            .copyright {
-                color: #E0E5F3;
-                text-align: center;
-
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-                margin-top: 43px;
-            }
-        }
-
-        .app {
-            margin-top: 80px;
-
-            .app__desc {
-                background: transparent;
-                margin-top: 0;
-                align-items: center;
-
-                .app__text {
-                    margin: 0;
-                    color: var(--white-900, #FFF);
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 36px;
-                    /* 150% */
-                    letter-spacing: 0.96px;
-                }
-
-                .app__buttons {
-                    margin-top: 28px;
-                    margin-left: 60px;
-
-                    .app__btn1 {
-                        margin-bottom: 20px;
-                    }
-                }
-            }
-        }
-    }
-
-    @media screen and (max-width: 376px) {
-        .marketplace {
-            display: none;
-        }
-
-        .container {
-            padding: 0 19px;
-        }
-
-        .header__inner {
-            padding-top: 46px;
-
-            .header__inner--logo {
-                align-items: center;
-                margin-left: 5px;
-
-                svg {
-                    width: 32px;
-                    height: 40px;
-                }
-
-                .header__inner--title {
-                    font-size: 24px;
-                    padding: 0;
-                    margin: 5px;
-                }
-            }
-
-            .burger {
-                display: flex;
-                margin-right: 7px;
-            }
-
-            .inner__btn {
-                display: none;
-            }
-
-            .menu__list {
-                display: none;
-                flex-direction: column;
-                position: fixed;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                z-index: 50;
-                overflow-y: auto;
-                padding: 50px 40px;
-                background-color: #1D1E22;
-                row-gap: 30px;
-
-
-                .menu__item a {
-                    margin-left: 0;
-                }
-            }
-        }
-
-        .marketplace__media {
-            display: block;
-            text-align: center;
-
-            .marketplace__media--inner {
-                margin-top: 69px;
-
-                .marketplace__media--title {
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 0;
-                }
-
-                .marketplace__media--subtitle {
-                    margin-top: 13px;
-                    color: #FFF;
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 30px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 3px;
-                    text-transform: uppercase;
-                    max-width: 380px;
-
-
-                }
-
-
-
-                .marketplace__media--explore {
-                    margin-top: 33px;
-                    width: 150px;
-                    height: 60px;
-                    border-radius: 50px;
-                    background: #52FFE0;
-                    color: #2C2D31;
-                    text-align: center;
-                    font-family: RedRose;
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                    letter-spacing: 0.36px;
-                }
-
-                .marketplace__photo {
-                    margin-top: 60px;
-
-                    .marketplace__artist--img {
-                        border-radius: 22%;
-                        max-width: 322px;
-                        box-shadow: 0 0 20px #2f1554, 0 0 40px #2f1554, 0 0 60px #2f1554, 0 0 80px #234243;
-
-                    }
-
-                }
-
-                .marketplace__info {
-                    margin-top: 60px;
-                    display: flex;
-                    gap: 1px;
-                    position: relative;
-                    padding: 0 36px;
-                    gap: 30px;
-
-                    svg {
-                        position: absolute;
-                        left: 70px;
-                        top: 110px;
-                    }
-
-                    .list__item {
-                        max-width: 100px;
-                    }
-
-                    .list__item--img2 {
-                        margin-top: -20px;
-                    }
-
-                    .list__item--img3 {
-                        margin-top: -20px;
-                    }
-
-                    .info__list--number {
-                        color: #FFF;
-                        text-align: center;
-                        font-family: Monument Extended;
-                        font-size: 30px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.6px;
-                    }
-
-                    .info__list--desc {
-                        color: #818698;
-                        text-align: center;
-                        font-family: RedRose;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.32px;
-                        margin-top: 5px;
-                    }
-
-
-                }
-
-                .info__list+.info__list {
-                    margin-top: 35px;
-                }
-            }
-
-        }
-
-
-        .categories {
-            margin-top: 80px;
-
-
-
-            .categories__header {
-
-                color: #FFF;
-                text-align: center;
-                font-family: Monument Extended;
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 36px;
-                /* 150% */
-                letter-spacing: 0.5px;
-                text-transform: uppercase;
-            }
-
-            .categories__main {
-                display: none;
-            }
-
-
-            .slider {
-                display: block;
-                margin-top: 25px;
-                padding-left: 15px;
-                position: relative;
-
-                .categories__main--box+.categories__main--box {
-                    margin-right: 20px;
-                }
-
-                .categories__main--box .box__img {
-                    margin-left: 10px;
-                }
-
-                .slick-dots {
-                    position: absolute;
-                    display: flex;
-                    font-size: 0;
-                    top: 410px;
-                    left: 50px;
-                    justify-content: center;
-                    align-items: center;
-
-                    li {
-                        list-style: none;
-                        margin: 0 10px;
-                    }
-
-                    button {
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 50%;
-                        background-color: black;
-                        border: 1px solid #FFF;
-
-                    }
-
-                    .slick-active button {
-                        background-color: #52FFE0;
-                    }
-
-                }
-
-
-            }
-        }
-
-
-
-        .Top__collections {
-            background-color: #101010;
-            margin-top: 140px;
-
-            .collection__main {
-                display: none;
-            }
-
-            .collection__inner .collection__inner--box {
-                width: 327px;
-                height: 178px;
-                margin-bottom: 10px;
-                border-radius: 20px;
-                flex-wrap: wrap;
-                justify-content: center;
-
-            }
-
-            .collection__inner .collection__inner--box .collection__box--numbers {
-                margin-top: 0;
-                width: auto;
-                margin-left: 15px;
-                margin-top: -20px;
-            }
-
-            .collection__inner .collection__inner--box .collection__box--info {
-                width: 55%;
-                height: 100px;
-
-                .collection__box--name {
-                    margin-top: 36px;
-                }
-            }
-
-            .collections__header {
-                padding-top: 0;
-                max-width: 250px;
-                margin-left: 40px;
-
-                .collection__time {
-                    display: none;
-                }
-
-                .collection__title {
-                    text-align: center;
-                    color: #FFF;
-
-                    font-family: Monument Extended;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 36px;
-                    /* 150% */
-                    letter-spacing: 0;
-                    text-transform: uppercase;
-                }
-            }
-
-            .collection__media {
-                display: block;
-                margin-top: 20px;
-            }
-        }
-
-        .TrandNFT {
-            margin-top: 75px;
-
-
-            .TrandNFT__header {
-                color: #FFF;
-                text-align: center;
-                font-family: Monument Extended;
-                font-size: 24px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 36px;
-                /* 150% */
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                max-width: 150px;
-                margin-left: 90px;
-            }
-
-            .TrandNFT__inner {
-                display: none;
-            }
-
-            .TrandNFT__inner1 {
-                margin-top: 55px;
-                margin-left: 5px;
-                display: block;
-                width: 327px;
-                height: auto;
-                border-radius: 30px;
-                background: var(--black-2, #1D1E22);
-                position: relative;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            overflow-y: auto;
+            padding: 50px 40px;
+            background-color: #1D1E22;
+            row-gap: 30px;
+
+
+            .menu__item a {
                 margin-left: 0;
+            }
+        }
+    }
 
-                .slick-dots {
-                    position: absolute;
-                    display: flex;
-                    font-size: 0;
-                    top: 542px;
-                    left: 80px;
+    .marketplace__media {
+        display: block;
+        text-align: center;
 
-                    li {
-                        list-style: none;
-                        margin: 0 10px;
-                    }
+        .marketplace__media--inner {
+            margin-top: 69px;
 
-                    button {
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 50%;
-                        background-color: black;
-                        border: 1px solid #FFF;
+            .marketplace__media--title {
+                color: #FFF;
+                text-align: center;
+                font-family: Monument Extended;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0;
+            }
 
-                    }
+            .marketplace__media--subtitle {
+                margin-top: 13px;
+                color: #FFF;
+                text-align: center;
+                font-family: Monument Extended;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3px;
+                text-transform: uppercase;
 
-                    .slick-active button {
-                        background-color: #52FFE0;
-                    }
 
-                }
 
-                .TrandNFT__img {
-                    max-width: 327px;
-                }
+            }
 
-                .TrandNFT__info {
-                    margin-top: 34px;
-                    margin-left: 15px;
 
-                    .TrandNFT__name {
-                        color: #FFF;
-                        font-family: RedRose;
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: 0.96px;
 
-                    }
+            .marketplace__media--explore {
+                margin-top: 33px;
+                width: 150px;
+                height: 60px;
+                border-radius: 50px;
+                background: #52FFE0;
+                color: #2C2D31;
+                text-align: center;
+                font-family: RedRose;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.36px;
+            }
 
-                    .TrandNFT__username {
-                        color: #FFF;
-                        font-family: RedRose;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        letter-spacing: 0.5px;
-                        margin-top: 6px;
-                    }
-                }
+            .marketplace__photo {
+                margin-top: 60px;
 
-                .TrandNFT__info--price {
-                    max-width: 357px;
-                    height: 80px;
-                    border-radius: 20px;
-                    background: var(--black-3, #2C2D31);
-                    margin: 33px 5px 5px 5px;
-                    display: flex;
-                    justify-content: space-between;
+                .marketplace__artist--img {
+                    border-radius: 22%;
+                    max-width: 522px;
+                    box-shadow: 0 0 20px #2f1554, 0 0 40px #2f1554, 0 0 60px #2f1554, 0 0 80px #234243;
 
-                    .TrandNFT__price {
-                        margin-left: 20px;
-                        margin-top: 18px;
-
-                        .price__text {
-                            color: #999;
-                            font-family: RedHat Display;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal;
-                            letter-spacing: 0.64px;
-                        }
-
-                        .price__number {
-                            color: #FFF;
-                            font-family: RedHat Display;
-                            font-size: 14px;
-                            font-style: normal;
-                            line-height: normal;
-                            letter-spacing: 0.56px;
-                            margin-top: 7px;
-                        }
-                    }
-
-                    .TrandNFT__bid {
-                        margin-right: 24px;
-                        margin-top: 18px;
-
-                        .bid__text {
-                            color: #999;
-                            font-family: RedHat Display;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: normal;
-                            letter-spacing: 0.64px;
-                        }
-
-                        .bid__number {
-                            color: #FFF;
-                            font-family: RedHat Display;
-                            font-size: 14px;
-                            font-style: normal;
-                            margin-top: 7px;
-                            line-height: normal;
-                            letter-spacing: 0.3px;
-                        }
-                    }
                 }
 
             }
+
+            .marketplace__info {
+                margin-top: 60px;
+                display: flex;
+                gap: 1px;
+
+                padding: 0 36px;
+
+
+                justify-content: center;
+
+                svg {
+                    margin-left: -50px;
+                    margin-top: 100px;
+                }
+
+                .list__item {
+                    max-width: 100px;
+                }
+
+                .list__item--img2 {
+                    margin-top: -20px;
+                }
+
+                .list__item--img3 {
+                    margin-top: -20px;
+                }
+
+                .info__list--number {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Monument Extended;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.6px;
+                }
+
+                .info__list--desc {
+                    color: #818698;
+                    text-align: center;
+                    font-family: RedRose;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.32px;
+                    margin-top: 5px;
+                }
+
+
+            }
+
+            .info__list+.info__list {
+                margin-top: 35px;
+            }
         }
 
-        .Insights {
+    }
+
+
+    .categories {
+        margin-top: 80px;
+
+
+
+        .categories__header {
+
+            color: #FFF;
+            text-align: center;
+            font-family: Monument Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            /* 150% */
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .categories__main {
             display: none;
         }
 
-        .Blog {
-            display: block;
-            margin-top: 130px;
-            width: 375px;
-            height: 856px;
-            background: #1D1E22;
 
-            .Blog__header {
-                padding-top: 80px;
-                color: #D9D9D9;
+        .slider {
+            display: block;
+            margin-top: 25px;
+            padding-left: 15px;
+            position: relative;
+
+            .categories__main--box+.categories__main--box {
+                margin-right: 20px;
+            }
+
+            .categories__main--box .box__img {
+                margin-left: 25px;
+
+            }
+
+            .slick-dots {
+                position: absolute;
+                display: flex;
+                font-size: 0;
+                top: 410px;
+                left: 250px;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    margin: 0 10px;
+                }
+
+                button {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background-color: black;
+                    border: 1px solid #FFF;
+
+                }
+
+                .slick-active button {
+                    background-color: #52FFE0;
+                }
+
+            }
+
+
+        }
+    }
+
+    .TrandNFT .TrandNFT__inner {
+        display: none;
+    }
+
+    .TrandNFT {
+
+
+        .TrandNFT__inner1 {
+            display: block;
+            width: 327px;
+            height: auto;
+            border-radius: 30px;
+            background: var(--black-2, #1D1E22);
+            position: relative;
+            margin-left: 200px;
+
+
+            .slick-dots {
+                position: absolute;
+                display: flex;
+                font-size: 0;
+                top: 542px;
+                left: 80px;
+
+                li {
+                    list-style: none;
+                    margin: 0 10px;
+                }
+
+                button {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background-color: black;
+                    border: 1px solid #FFF;
+
+                }
+
+                .slick-active button {
+                    background-color: #52FFE0;
+                }
+
+            }
+
+            .TrandNFT__img {
+                max-width: 327px;
+            }
+
+            .TrandNFT__info {
+                margin-top: 34px;
+                margin-left: 15px;
+
+                .TrandNFT__name {
+                    color: #FFF;
+                    font-family: RedRose;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 0.96px;
+
+                }
+
+                .TrandNFT__username {
+                    color: #FFF;
+                    font-family: RedRose;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.5px;
+                    margin-top: 6px;
+                }
+            }
+
+            .TrandNFT__info--price {
+                max-width: 357px;
+                height: 80px;
+                border-radius: 20px;
+                background: var(--black-3, #2C2D31);
+                margin: 33px 5px 5px 5px;
+                display: flex;
+                justify-content: space-between;
+
+                .TrandNFT__price {
+                    margin-left: 20px;
+                    margin-top: 18px;
+
+                    .price__text {
+                        color: #999;
+                        font-family: RedHat Display;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 0.64px;
+                    }
+
+                    .price__number {
+                        color: #FFF;
+                        font-family: RedHat Display;
+                        font-size: 14px;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.56px;
+                        margin-top: 7px;
+                    }
+                }
+
+                .TrandNFT__bid {
+                    margin-right: 24px;
+                    margin-top: 18px;
+
+                    .bid__text {
+                        color: #999;
+                        font-family: RedHat Display;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 0.64px;
+                    }
+
+                    .bid__number {
+                        color: #FFF;
+                        font-family: RedHat Display;
+                        font-size: 14px;
+                        font-style: normal;
+                        margin-top: 7px;
+                        line-height: normal;
+                        letter-spacing: 0.3px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .marketplace__media .marketplace__media--inner .marketplace__photo .marketplace__artist--img {
+        max-width: 350px;
+    }
+
+    .Top__collections .collections__header .collection__time {
+        display: none;
+    }
+
+    .TrandNFT .TrandNFT__inner1 {
+        margin-left: 110px;
+    }
+
+    .app .app__desc .app__buttons {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .marketplace__media .marketplace__media--inner .marketplace__photo .marketplace__artist--img {
+        max-width: 250px;
+    }
+
+    .Top__collections .collections__header .collection__time {
+        display: none;
+    }
+
+    .categories .slider .slick-dots {
+        left: 100px;
+    }
+
+    .categories .slider .categories__main--box .box__img {
+        margin-left: 35px;
+    }
+
+    .TrandNFT .TrandNFT__inner1 {
+        margin-left: 30px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer__media {
+        display: block;
+
+        .footer__inner--profile .profile__info {
+            margin-top: 120px;
+            margin-left: 5px;
+            height: 262px;
+            max-width: 586px;
+            border-radius: 20px;
+            background: #52FFE0;
+            display: flex;
+            padding: 60px 48px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            .profile__text {
+                color: #1D1E22;
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                margin-top: -10px;
+                /* 30px */
+            }
+
+            .profile__mail--input {
+                margin-left: -10px;
+                color: #1D1E22;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                /* 100% */
+                letter-spacing: -0.213px;
+                position: relative;
+                padding: 0;
+                margin-top: -5px;
+
+            }
+
+            svg {
+
+                display: none;
+            }
+        }
+
+        .office {
+            margin-top: 35px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            /* 100% */
+        }
+
+        .street {
+            margin-top: 15px;
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .country {
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+
+        }
+
+        .contact__contact {
+            margin-top: 40px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            /* 100% */
+        }
+
+        .contact__number {
+            color: #E0E5F3;
+            text-align: center;
+            margin-top: 15px;
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .contact__email {
+            color: #E0E5F3;
+            text-align: center;
+            margin-top: 5px;
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .terms {
+            text-align: center;
+
+            .terms__terms {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                /* 100% */
+                margin-top: 40px;
+            }
+
+            .terms__conditions {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                /* 100% */
+                margin-top: 30px;
+            }
+
+            .terms__privacy {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                /* 100% */
+                margin-top: 33px;
+            }
+        }
+
+
+        .footer__media--icon {
+            margin-left: 103px;
+            margin-top: 30px;
+
+
+            a i {
+                font-size: 24px;
+                color: #FFF;
+                margin-right: 28px;
+            }
+        }
+
+        .copyright {
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+            margin-top: 43px;
+        }
+    }
+
+    .app {
+        margin-top: 80px;
+
+        .app__desc {
+            background: transparent;
+            margin-top: 0;
+            align-items: center;
+
+            .app__text {
+                margin: 0;
+                color: var(--white-900, #FFF);
                 text-align: center;
                 font-family: Monument Extended;
                 font-size: 24px;
@@ -2355,317 +1838,828 @@
                 font-weight: 400;
                 line-height: 36px;
                 /* 150% */
+                letter-spacing: 0.96px;
             }
 
-            .Blog__main--img {
-                max-width: 315px;
-                height: 312px;
-                margin-top: 40px;
+            .app__buttons {
+                margin-top: 28px;
+                margin-left: 60px;
+
+                .app__btn1 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .marketplace {
+        display: none;
+    }
+
+    .container {
+        padding: 0 19px;
+    }
+
+    .header__inner {
+        padding-top: 46px;
+
+        .header__inner--logo {
+            align-items: center;
+            margin-left: 5px;
+
+            svg {
+                width: 32px;
+                height: 40px;
+            }
+
+            .header__inner--title {
+                font-size: 24px;
+                padding: 0;
+                margin: 5px;
+            }
+        }
+
+        .burger {
+            display: flex;
+            margin-right: 7px;
+        }
+
+        .inner__btn {
+            display: none;
+        }
+
+        .menu__list {
+            display: none;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            overflow-y: auto;
+            padding: 50px 40px;
+            background-color: #1D1E22;
+            row-gap: 30px;
+
+
+            .menu__item a {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .marketplace__media {
+        display: block;
+        text-align: center;
+
+        .marketplace__media--inner {
+            margin-top: 69px;
+
+            .marketplace__media--title {
+                color: #FFF;
+                text-align: center;
+                font-family: Monument Extended;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0;
+            }
+
+            .marketplace__media--subtitle {
+                margin-top: 13px;
+                color: #FFF;
+                text-align: center;
+                font-family: Monument Extended;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                max-width: 380px;
+
+
+            }
+
+
+
+            .marketplace__media--explore {
+                margin-top: 33px;
+                width: 150px;
+                height: 60px;
+                border-radius: 50px;
+                background: #52FFE0;
+                color: #2C2D31;
+                text-align: center;
+                font-family: RedRose;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 0.36px;
+            }
+
+            .marketplace__photo {
+                margin-top: 60px;
+
+                .marketplace__artist--img {
+                    border-radius: 22%;
+                    max-width: 322px;
+                    box-shadow: 0 0 20px #2f1554, 0 0 40px #2f1554, 0 0 60px #2f1554, 0 0 80px #234243;
+
+                }
+
+            }
+
+            .marketplace__info {
+                margin-top: 60px;
+                display: flex;
+                gap: 1px;
+                position: relative;
+                padding: 0 36px;
+                gap: 30px;
+
+                svg {
+                    position: absolute;
+                    left: 70px;
+                    top: 110px;
+                }
+
+                .list__item {
+                    max-width: 100px;
+                }
+
+                .list__item--img2 {
+                    margin-top: -20px;
+                }
+
+                .list__item--img3 {
+                    margin-top: -20px;
+                }
+
+                .info__list--number {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Monument Extended;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.6px;
+                }
+
+                .info__list--desc {
+                    color: #818698;
+                    text-align: center;
+                    font-family: RedRose;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.32px;
+                    margin-top: 5px;
+                }
+
+
+            }
+
+            .info__list+.info__list {
+                margin-top: 35px;
+            }
+        }
+
+    }
+
+
+    .categories {
+        margin-top: 80px;
+
+
+
+        .categories__header {
+
+            color: #FFF;
+            text-align: center;
+            font-family: Monument Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            /* 150% */
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .categories__main {
+            display: none;
+        }
+
+
+        .slider {
+            display: block;
+            margin-top: 25px;
+            padding-left: 15px;
+            position: relative;
+
+            .categories__main--box+.categories__main--box {
+                margin-right: 20px;
+            }
+
+            .categories__main--box .box__img {
                 margin-left: 10px;
             }
 
-            .blog__main--inner {
-                padding: 0 45px;
-                margin-top: 30px;
+            .slick-dots {
+                position: absolute;
+                display: flex;
+                font-size: 0;
+                top: 410px;
+                left: 50px;
+                justify-content: center;
+                align-items: center;
 
-                .main__inner--info {
-                    display: flex;
-                    gap: 15px;
-                    align-items: center;
-
-                    .sound {
-                        color: #FFF;
-                        text-align: center;
-                        font-family: Inter;
-                        font-size: 12px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 18px;
-                        /* 150% */
-                        display: inline-flex;
-                        padding: 4px 12px;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 2px;
-                        border-radius: 36px;
-                        background: #0E121B;
-                        box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
-                    }
-
-                    .data {
-                        color: var(--body-text, #DFE5F5);
-                        font-family: BebasNeue;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                    }
+                li {
+                    list-style: none;
+                    margin: 0 10px;
                 }
 
-                .main__inner--text {
-                    margin-top: 17px;
-                    color: var(--white, #FFF);
-                    text-align: center;
-                    font-family: Inter;
-                    font-size: 30px;
+                button {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background-color: black;
+                    border: 1px solid #FFF;
+
+                }
+
+                .slick-active button {
+                    background-color: #52FFE0;
+                }
+
+            }
+
+
+        }
+    }
+
+
+
+    .Top__collections {
+        background-color: #101010;
+        margin-top: 140px;
+
+        .collection__main {
+            display: none;
+        }
+
+        .collection__inner .collection__inner--box {
+            width: 327px;
+            height: 178px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .collection__inner .collection__inner--box .collection__box--numbers {
+            margin-top: 0;
+            width: auto;
+            margin-left: 15px;
+            margin-top: -20px;
+        }
+
+        .collection__inner .collection__inner--box .collection__box--info {
+            width: 55%;
+            height: 100px;
+
+            .collection__box--name {
+                margin-top: 36px;
+            }
+        }
+
+        .collections__header {
+            padding-top: 0;
+            max-width: 250px;
+            margin-left: 40px;
+
+            .collection__time {
+                display: none;
+            }
+
+            .collection__title {
+                text-align: center;
+                color: #FFF;
+
+                font-family: Monument Extended;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px;
+                /* 150% */
+                letter-spacing: 0;
+                text-transform: uppercase;
+            }
+        }
+
+        .collection__media {
+            display: block;
+            margin-top: 20px;
+        }
+    }
+
+    .TrandNFT {
+        margin-top: 75px;
+
+
+        .TrandNFT__header {
+            color: #FFF;
+            text-align: center;
+            font-family: Monument Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            /* 150% */
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            max-width: 150px;
+            margin-left: 90px;
+        }
+
+        .TrandNFT__inner {
+            display: none;
+        }
+
+        .TrandNFT__inner1 {
+            margin-top: 55px;
+            margin-left: 5px;
+            display: block;
+            width: 327px;
+            height: auto;
+            border-radius: 30px;
+            background: var(--black-2, #1D1E22);
+            position: relative;
+            margin-left: 0;
+
+            .slick-dots {
+                position: absolute;
+                display: flex;
+                font-size: 0;
+                top: 542px;
+                left: 80px;
+
+                li {
+                    list-style: none;
+                    margin: 0 10px;
+                }
+
+                button {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background-color: black;
+                    border: 1px solid #FFF;
+
+                }
+
+                .slick-active button {
+                    background-color: #52FFE0;
+                }
+
+            }
+
+            .TrandNFT__img {
+                max-width: 327px;
+            }
+
+            .TrandNFT__info {
+                margin-top: 34px;
+                margin-left: 15px;
+
+                .TrandNFT__name {
+                    color: #FFF;
+                    font-family: RedRose;
+                    font-size: 24px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px;
-                    /* 160% */
-                    width: 237px;
-                    margin-left: 2px;
+                    line-height: normal;
+                    letter-spacing: 0.96px;
+
                 }
 
-                .desc__btn {
-                    display: flex;
-                    margin-top: 32px;
-                    margin-left: 50px;
-                    width: 150px;
-                    height: 56px;
-                    padding: 16px 15px;
+                .TrandNFT__username {
+                    color: #FFF;
+                    font-family: RedRose;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.5px;
+                    margin-top: 6px;
+                }
+            }
+
+            .TrandNFT__info--price {
+                max-width: 357px;
+                height: 80px;
+                border-radius: 20px;
+                background: var(--black-3, #2C2D31);
+                margin: 33px 5px 5px 5px;
+                display: flex;
+                justify-content: space-between;
+
+                .TrandNFT__price {
+                    margin-left: 20px;
+                    margin-top: 18px;
+
+                    .price__text {
+                        color: #999;
+                        font-family: RedHat Display;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 0.64px;
+                    }
+
+                    .price__number {
+                        color: #FFF;
+                        font-family: RedHat Display;
+                        font-size: 14px;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: 0.56px;
+                        margin-top: 7px;
+                    }
+                }
+
+                .TrandNFT__bid {
+                    margin-right: 24px;
+                    margin-top: 18px;
+
+                    .bid__text {
+                        color: #999;
+                        font-family: RedHat Display;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 0.64px;
+                    }
+
+                    .bid__number {
+                        color: #FFF;
+                        font-family: RedHat Display;
+                        font-size: 14px;
+                        font-style: normal;
+                        margin-top: 7px;
+                        line-height: normal;
+                        letter-spacing: 0.3px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .Insights {
+        display: none;
+    }
+
+    .Blog {
+        display: block;
+        margin-top: 130px;
+        width: 375px;
+        height: 856px;
+        background: #1D1E22;
+
+        .Blog__header {
+            padding-top: 80px;
+            color: #D9D9D9;
+            text-align: center;
+            font-family: Monument Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            /* 150% */
+        }
+
+        .Blog__main--img {
+            max-width: 315px;
+            height: 312px;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+
+        .blog__main--inner {
+            padding: 0 45px;
+            margin-top: 30px;
+
+            .main__inner--info {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                .sound {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                    /* 150% */
+                    display: inline-flex;
+                    padding: 4px 12px;
                     justify-content: center;
                     align-items: center;
-                    border-radius: 30px;
-                    border: 1px solid var(--white, #FFF);
-                    background-color: #1D1E22;
-                    gap: 8px;
-                    color: var(--white, #FFF);
-                    text-align: center;
-                    font-family: RedRose;
+                    gap: 2px;
+                    border-radius: 36px;
+                    background: #0E121B;
+                    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+                }
+
+                .data {
+                    color: var(--body-text, #DFE5F5);
+                    font-family: BebasNeue;
                     font-size: 16px;
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
                 }
             }
-        }
 
-        .app {
-            margin-top: 80px;
-
-            .app__desc {
-                background: transparent;
-                margin-top: 0;
-
-                .app__text {
-                    margin: 0;
-                    color: var(--white-900, #FFF);
-                    text-align: center;
-                    font-family: Monument Extended;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 36px;
-                    /* 150% */
-                    letter-spacing: 0.96px;
-                }
-
-                .app__buttons {
-                    margin-top: 28px;
-                    margin-left: 30px;
-
-                    .app__btn1 {
-                        margin-bottom: 20px;
-                    }
-                }
+            .main__inner--text {
+                margin-top: 17px;
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: Inter;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                /* 160% */
+                width: 237px;
+                margin-left: 2px;
             }
-        }
 
-        .footer {
-            display: none;
-        }
-
-        .footer__media {
-            display: block;
-
-            .footer__inner--profile .profile__info {
-                margin-top: 120px;
-                margin-left: 5px;
-                height: 262px;
-                max-width: 327px;
-                border-radius: 20px;
-                background: #52FFE0;
+            .desc__btn {
                 display: flex;
-                padding: 60px 48px;
-                flex-direction: column;
+                margin-top: 32px;
+                margin-left: 50px;
+                width: 150px;
+                height: 56px;
+                padding: 16px 15px;
                 justify-content: center;
                 align-items: center;
-                gap: 15px;
+                border-radius: 30px;
+                border: 1px solid var(--white, #FFF);
+                background-color: #1D1E22;
+                gap: 8px;
+                color: var(--white, #FFF);
+                text-align: center;
+                font-family: RedRose;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
 
-                .profile__text {
-                    color: #1D1E22;
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 150%;
-                    margin-top: -10px;
-                    /* 30px */
-                }
+    .app {
+        margin-top: 80px;
 
-                .profile__mail--input {
-                    margin-left: -10px;
-                    color: #1D1E22;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    letter-spacing: -0.213px;
-                    position: relative;
-                    padding: 0;
-                    margin-top: -5px;
+        .app__desc {
+            background: transparent;
+            margin-top: 0;
 
-                }
-
-                svg {
-                    position: absolute;
-                    left: 280px;
-                }
+            .app__text {
+                margin: 0;
+                color: var(--white-900, #FFF);
+                text-align: center;
+                font-family: Monument Extended;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px;
+                /* 150% */
+                letter-spacing: 0.96px;
             }
 
-            .office {
-                margin-top: 35px;
-                color: #FFF;
-                text-align: center;
+            .app__buttons {
+                margin-top: 28px;
+                margin-left: 30px;
+
+                .app__btn1 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer__media {
+        display: block;
+
+        .footer__inner--profile .profile__info {
+            margin-top: 120px;
+            margin-left: 5px;
+            height: 262px;
+            max-width: 327px;
+            border-radius: 20px;
+            background: #52FFE0;
+            display: flex;
+            padding: 60px 48px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            .profile__text {
+                color: #1D1E22;
                 font-family: Inter;
-                font-size: 18px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 600;
-                line-height: 18px;
+                line-height: 150%;
+                margin-top: -10px;
+                /* 30px */
+            }
+
+            .profile__mail--input {
+                margin-left: -10px;
+                color: #1D1E22;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
                 /* 100% */
+                letter-spacing: -0.213px;
+                position: relative;
+                padding: 0;
+                margin-top: -5px;
+
             }
 
-            .street {
-                margin-top: 15px;
-                color: #E0E5F3;
-                text-align: center;
+            svg {
+                position: absolute;
+                left: 280px;
+            }
+        }
 
-                /* Body text */
+        .office {
+            margin-top: 35px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            /* 100% */
+        }
+
+        .street {
+            margin-top: 15px;
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .country {
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+
+        }
+
+        .contact__contact {
+            margin-top: 40px;
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            /* 100% */
+        }
+
+        .contact__number {
+            color: #E0E5F3;
+            text-align: center;
+            margin-top: 15px;
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .contact__email {
+            color: #E0E5F3;
+            text-align: center;
+            margin-top: 5px;
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+        }
+
+        .terms {
+            text-align: center;
+
+            .terms__terms {
+                color: #FFF;
                 font-family: Inter;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .country {
-                color: #E0E5F3;
-                text-align: center;
-
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-
-            }
-
-            .contact__contact {
+                line-height: 16px;
+                /* 100% */
                 margin-top: 40px;
+            }
+
+            .terms__conditions {
                 color: #FFF;
-                text-align: center;
                 font-family: Inter;
-                font-size: 18px;
+                font-size: 16px;
                 font-style: normal;
-                font-weight: 600;
-                line-height: 18px;
+                font-weight: 400;
+                line-height: 16px;
                 /* 100% */
-            }
-
-            .contact__number {
-                color: #E0E5F3;
-                text-align: center;
-                margin-top: 15px;
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .contact__email {
-                color: #E0E5F3;
-                text-align: center;
-                margin-top: 5px;
-                /* Body text */
-                font-family: Inter;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-            }
-
-            .terms {
-                text-align: center;
-
-                .terms__terms {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 40px;
-                }
-
-                .terms__conditions {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 30px;
-                }
-
-                .terms__privacy {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 16px;
-                    /* 100% */
-                    margin-top: 33px;
-                }
-            }
-
-
-            .footer__media--icon {
-                margin-left: 83px;
                 margin-top: 30px;
-
-
-                a i {
-                    font-size: 24px;
-                    color: #FFF;
-                    margin-right: 28px;
-                }
             }
 
-            .copyright {
-                color: #E0E5F3;
-                text-align: center;
-
-                /* Body text */
+            .terms__privacy {
+                color: #FFF;
                 font-family: Inter;
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 30px;
-                /* 187.5% */
-                margin-top: 43px;
+                line-height: 16px;
+                /* 100% */
+                margin-top: 33px;
             }
+        }
+
+
+        .footer__media--icon {
+            margin-left: 83px;
+            margin-top: 30px;
+
+
+            a i {
+                font-size: 24px;
+                color: #FFF;
+                margin-right: 28px;
+            }
+        }
+
+        .copyright {
+            color: #E0E5F3;
+            text-align: center;
+
+            /* Body text */
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            /* 187.5% */
+            margin-top: 43px;
         }
     }
 }
