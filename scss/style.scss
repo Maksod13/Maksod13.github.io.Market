@@ -1408,7 +1408,7 @@
             }
 
             .categories__main--box .box__img {
-                margin-left: 25px;
+                margin-left: 10px;
 
             }
 
@@ -1853,6 +1853,12 @@
     }
 }
 
+@media screen and (max-width: 431px) {
+    .categories .slider .categories__main--box .box__img {
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 376px) {
     .marketplace {
         display: none;
@@ -1989,6 +1995,7 @@
                     position: absolute;
                     left: 70px;
                     top: 110px;
+                    margin: 0;
                 }
 
                 .list__item {
@@ -2068,7 +2075,8 @@
             position: relative;
 
             .categories__main--box+.categories__main--box {
-                margin-right: 20px;
+                margin-right: 10px;
+              
             }
 
             .categories__main--box .box__img {
