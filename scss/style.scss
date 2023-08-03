@@ -983,13 +983,20 @@
     .categories .categories__main {
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 0;
     }
+        .categories .categories__main--box{
+            max-width: 220px;
+        }
+                .categories .categories__main--box .box__img{
+                    max-width: 200px;
+                }
 
     .TrandNFT .TrandNFT__inner {
         flex-wrap: wrap;
     }
 
-    .TrandNFT__inner--box {
+        .TrandNFT .TrandNFT__inner .TrandNFT__inner--box{
         max-width: 300px;
         height: auto;
 
