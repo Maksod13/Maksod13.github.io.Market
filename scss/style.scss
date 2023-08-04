@@ -1924,7 +1924,7 @@
         text-align: center;
 
         .marketplace__media--inner {
-            margin-top: 69px;
+            margin-top: 65px;
 
             .marketplace__media--title {
                 color: #FFF;
@@ -1938,7 +1938,8 @@
             }
 
             .marketplace__media--subtitle {
-                margin-top: 13px;
+                margin-top: 18px;
+                margin-left: 14px;
                 color: #FFF;
                 text-align: center;
                 font-family: Monument Extended;
@@ -1946,9 +1947,9 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
-                letter-spacing: 3px;
+                letter-spacing: 0px;
                 text-transform: uppercase;
-                max-width: 380px;
+                max-width: 300px;
 
 
             }
@@ -1988,8 +1989,8 @@
                 display: flex;
                 gap: 1px;
                 position: relative;
-                padding: 0 36px;
-                gap: 30px;
+                padding: 0 30px;
+                gap: 10px;
 
                 svg {
                     position: absolute;
@@ -1999,7 +2000,8 @@
                 }
 
                 .list__item {
-                    max-width: 100px;
+                    max-width: 90px;
+                    padding-right: 40px;
                 }
 
                 .list__item--img2 {
@@ -2071,16 +2073,24 @@
         .slider {
             display: block;
             margin-top: 25px;
-            padding-left: 15px;
             position: relative;
+            padding-left: 0;
+            margin-left: 20px;
 
             .categories__main--box+.categories__main--box {
-                margin-right: 10px;
-              
+                margin-right: 30px;
+
+            }
+
+
+            .categories__main--box {
+                max-width: 280px;
             }
 
             .categories__main--box .box__img {
-                margin-left: 10px;
+                margin-left: 5px;
+                max-width: 235px;
+
             }
 
             .slick-dots {
@@ -2120,7 +2130,7 @@
 
     .Top__collections {
         background-color: #101010;
-        margin-top: 140px;
+        margin-top: 135px;
 
         .collection__main {
             display: none;
@@ -2183,7 +2193,7 @@
     }
 
     .TrandNFT {
-        margin-top: 75px;
+        margin-top: 78px;
 
 
         .TrandNFT__header {
@@ -2248,8 +2258,8 @@
             }
 
             .TrandNFT__info {
-                margin-top: 34px;
-                margin-left: 15px;
+                margin-top: 35px;
+                margin-left: 20px;
 
                 .TrandNFT__name {
                     color: #FFF;
@@ -2284,7 +2294,7 @@
                 justify-content: space-between;
 
                 .TrandNFT__price {
-                    margin-left: 20px;
+                    margin-left: 25px;
                     margin-top: 18px;
 
                     .price__text {
@@ -2309,7 +2319,7 @@
                 }
 
                 .TrandNFT__bid {
-                    margin-right: 24px;
+                    margin-right: 20px;
                     margin-top: 18px;
 
                     .bid__text {
@@ -2465,10 +2475,10 @@
 
             .app__buttons {
                 margin-top: 28px;
-                margin-left: 30px;
+                margin-left: 32px;
 
                 .app__btn1 {
-                    margin-bottom: 20px;
+                    margin-bottom: 22px;
                 }
             }
         }
@@ -2645,14 +2655,14 @@
 
 
         .footer__media--icon {
-            margin-left: 83px;
+            margin-left: 84px;
             margin-top: 30px;
 
 
             a i {
                 font-size: 24px;
                 color: #FFF;
-                margin-right: 28px;
+                margin-right: 24px;
             }
         }
 
@@ -2667,7 +2677,7 @@
             font-weight: 400;
             line-height: 30px;
             /* 187.5% */
-            margin-top: 43px;
+            margin-top: 41px;
         }
     }
 }
