@@ -85,6 +85,7 @@
             .left__column--info {
                 display: flex;
                 margin-top: 80px;
+                margin-left: 5px;
 
                 .info__list {
                     display: block;
@@ -108,7 +109,8 @@
                         font-style: normal;
                         font-weight: 400;
                         line-height: 1px;
-                        letter-spacing: 0.3px;
+                        letter-spacing: 0px;
+                        margin-top: 16px;
                     }
                 }
             }
@@ -117,7 +119,7 @@
 
 
     .info__list+.info__list {
-        margin-left: 120px;
+        margin-left: 117px;
     }
 }
 
@@ -2512,7 +2514,7 @@
                 font-style: normal;
                 font-weight: 600;
                 line-height: 150%;
-                margin-top: -10px;
+                margin-top: -15px;
                 /* 30px */
             }
 
