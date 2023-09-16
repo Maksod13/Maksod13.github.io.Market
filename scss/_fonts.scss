@@ -1,33 +1,16 @@
 @font-face {
-    font-family: Gilroy;
-    src: url(../fonts/Gilroy-ExtraBold.woff2) format('woff2');
-    src: url(../fonts/Gilroy-ExtraBold.woff) format('woff');
-
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Regular.woff2) format(woff2);
+    font-weight: normal;
 }
 
 @font-face {
-    font-family: RedRose;
-    src: url(../fonts/RedRose-Regular.woff2) format('woff2');
-    // src: url(../fonts/RedRose-Bold.woff2) format('woff2');
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Bold.woff2) format(woff2);
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: Monument Extended;
-    src: url(../fonts/MonumentExtended-Regular.woff2) format('woff2');
-    // src: url(../fonts/MonumentExtended-Ultrabold.woff2)format('woff2');
-}
-
-@font-face {
-    font-family: RedHat Display;
-    src: url(../fonts/RedHatDisplay-Medium.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: Inter;
-    src: url(../fonts/Inter-Regular.woff2) format('woff2');
-}
-
-@font-face {
-    font-family: BebasNeue;
-    src: url(../fonts/BebasNeue-Regular.woff2) format('woff2');
+    font-family: Lato;
+    src: url(../fonts/Lato-Black.woff2) format(woff2);
 }
